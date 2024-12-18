@@ -1,0 +1,292 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff7f8;
+    color: #4a4a4a;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header Bölümü */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e87cae;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .logo img {
+    height: 60px;
+  }
+  
+  .header .buttons {
+    display: flex;
+  }
+  
+  .header .buttons .btn {
+    margin: 0 5px;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-light {
+    background-color: #ffeaf0;
+    border: 1px solid #e8b5cc;
+    color: #4a4a4a;
+  }
+  
+  .btn-light:hover {
+    background-color: #fcd4e2;
+    transform: scale(1.05);
+  }
+  
+  .btn-info {
+    background-color: #a16f97;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-info:hover {
+    background-color: #915486;
+    transform: scale(1.05);
+  }
+  
+  .btn-danger {
+    background-color: #d43b64;
+    border: none;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #b53055;
+    transform: scale(1.05);
+  }
+  
+  /* Başlık Bölümü */
+  .baslik {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .baslik h1 {
+    font-size: 2.5rem;
+    color: #e87cae;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .baslik h2 {
+    font-size: 1.5rem;
+    color: #a16f97;
+    margin-top: 0;
+  }
+  
+  /* Resim Bölümü */
+  .resim {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .resim img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .resim img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Ne Yapıyor Bölümü */
+  .ne_yapiyor {
+    padding: 20px;
+    background-color: #fff0f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .ne_yapiyor:hover {
+    transform: scale(1.02);
+  }
+  
+  .ne_yapiyor h2 {
+    color: #e87cae;
+    margin-bottom: 15px;
+  }
+  
+  /* Duyurular Bölümü */
+  .duyurular {
+    padding: 20px;
+    background-color: #fff7f8;
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .duyurular h2 {
+    color: #e87cae;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .duyurular .duyuru-card {
+    background-color: #fff;
+    border: 1px solid #e8b5cc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    transition: transform 0.3s ease;
+  }
+  
+  .duyurular .duyuru-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .duyurular .duyuru-card p {
+    margin: 0;
+    color: #4a4a4a;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4a4a4a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+  }
+  
+  footer a {
+    color: #e87cae;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #fff;
+  }
+  
+  /* Mobil Uyumluluk */
+  @media (max-width: 768px) {
+    .header {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .header .buttons {
+      margin-top: 10px;
+    }
+  
+    .baslik h1 {
+      font-size: 2rem;
+    }
+  
+    .baslik h2 {
+      font-size: 1.2rem;
+    }
+  
+    .resim img {
+      max-width: 100%;
+    }
+  
+    .duyurular .duyuru-card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  /* Yönetim Ekibi Sayfası Stilleri */
+#yonetim {
+    font-family: Arial, sans-serif;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 300px;
+  }
+  
+  .yonetim-ekibi h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e87cae;
+    margin-bottom: 40px;
+  }
+  
+  .yonetim-ekibi .ekip-card {
+    background-color: #fff;
+    border: 1px solid #e8b5cc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 45%;
+    margin: 10px 0;
+  }
+  
+  .yonetim-ekibi .ekip-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .yonetim-ekibi .ekip-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .yonetim-ekibi .ekip-card h3 {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+  }
+  
+  .yonetim-ekibi .ekip-card p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .yonetim-ekibi .ekip-card a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .yonetim-ekibi .ekip-card a:hover {
+    color: #4a4a4a;
+  }
+  
+  /* Mobil Uyumluluk */
+  @media (max-width: 768px) {
+    .yonetim-ekibi .ekip-card {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .header .buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .header .buttons .btn {
+      margin: 5px;
+      padding: 8px 12px;
+    }
+  }
+  
+  

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yönetim Ekibi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        /* Genel Tasarım */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        /* Yönetim Kısmı */
+        #yonetim {
+            padding: 20px;
+            margin-bottom: 50px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #yonetim img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        #yonetim div {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+
+        /* Mobil Tasarım (Responsive) */
+        @media (max-width: 768px) {
+
+
+            #yonetim {
+                padding: 10px;
+            }
+
+            #yonetim div {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            #yonetim img {
+                width: 100px;
+                height: 100px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            .header .buttons a button {
+                font-size: 12px;
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+      <!-- Header Bölümü -->
+  <div class="header">
+    <div class="logo">
+      <img src="LOGO (2).png" alt="Logo" />
+    </div>
+    <div class="buttons">
+        <a href="index.html"  rel="noopener noreferrer"><button type="button" class="btn btn-light" >Ana Sayfa</button></a>
+        <a href="duyuru.html"  rel="noopener noreferrer"><button type="button" class="btn btn-light" >Duyurular</button></a>   
+        <a href="hakkımızda.html"  rel="noopener noreferrer"><button type="button" class="btn btn-light">Hakkımızda</button></a>
+        <a href="projeler.html"  rel="noopener noreferrer"><button type="button" class="btn btn-light">Projeler</button></a>
+        <a href="iletisim.html"  rel="noopener noreferrer"><button type="button" class="btn btn-light">İletişim</button></a>
+        <a href="yonetim.html"  rel="noopener noreferrer"><button type="button" class="btn btn-info">Yönetim Ekibi</button></a>
+        <a href="uyeol.html"  rel="noopener noreferrer"><button type="button" class="btn btn-danger">Üye ol</button></a>
+    </div>
+  </div>
+
+
+<div id="yonetim" style="font-family: Arial, sans-serif; padding: 20px;margin-bottom: 300px; background-color: #f9f9f9;display: inline-block; text-align: center;margin-left: auto;margin-right: auto;">
+  <!-- Kulüp Danışmanı -->
+  <div style="margin-bottom: 40px; text-align: center;">
+    <img src="SEYMA_HOCA.jpg" alt="Dr. Öğr. Üyesi Şeyma KİLCİ ERCİYAS" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+    <h3 style="color: #4a4a4a;">Dr. Öğr. Üyesi Şeyma KİLCİ ERCİYAS</h3>
+    <p style="color: #666;">Kulüp Danışmanı<br>#emzirmedanışmanı
+      #doğumahazırlıkeğitmeni
+      #hipnoemzirmeeğitmeni</p>
+    <p style="color: #888;">Instagram: <a href="https://www.instagram.com/seymakilcierciyas/" style="color: #0073e6;">@seymakilcierciyas</a> | E-posta: <a href="mailto:seyma.erciyas@amasya.edu.tr" style="color: #0073e6;">seyma.erciyas@amasya.edu.tr/a></p>
+  </div>
+
+  <!-- Yönetim Ekibi -->
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    <!-- Kulüp Başkanı -->
+    <div style="width: 45%; text-align: center;">
+      <img src="fatih.jpg" alt="Fatih Demir" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Fatih Demir</h3>
+      <p style="color: #666;">Kulüp Başkanı<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/fatiih_demir/" style="color: #0073e6;">@fatiih_demir</a> | E-posta: <a href="mailto:fatih2525demir05@gmail.com" style="color: #0073e6;">fatih2525demir05@gmail.com</a></p>
+    </div>
+
+    <!-- Başkan Yardımcıları -->
+    <div style="width: 45%; text-align: center;">
+      <img src="LOGO (2).png" alt="Yusuf Bulgan" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Yusuf Bulgan</h3>
+      <p style="color: #666;">Başkan Yardımcısı<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="#" style="color: #0073e6;">@yusuf.bulgan</a> | E-posta: <a href="mailto:yusuf.bulgan@example.com" style="color: #0073e6;">yusuf.bulgan@example.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="tugce.jpg" alt="Tuğçe Kaya" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Tuğçe Kaya</h3>
+      <p style="color: #666;">Başkan Yardımcısı<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 2. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/tugce.kay4/" style="color: #0073e6;">@tugce.kay4</a> | E-posta: <a href="mailto:tugcee.kaya4@gmail.com" style="color: #0073e6;">tugcee.kaya4@gmail.com</a></p>
+    </div>
+
+    <!-- Diğer Yönetim Üyeleri -->
+    <div style="width: 45%; text-align: center;">
+      <img src="vildan_secim.jpg" alt="Vildan Seçim" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Vildan Seçim</h3>
+      <p style="color: #666;">Sekreter<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/abdullah_duman00/" style="color: #0073e6;">@vildan.secim</a> | E-posta: <a href="mailto:vildan.secim@example.com" style="color: #0073e6;">vildan.secim@example.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="nisanur_alkaya.jpg" alt="Nisanur Alkaya" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Nisanur Alkaya</h3>
+      <p style="color: #666;">Sosyal Medya Sorumlusu<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/nisanur.alky/" style="color: #0073e6;">@nisanur.alkaya</a> | E-posta: <a href="mailto:alkayanisanur0301@gmail.com" style="color: #0073e6;">alkayanisanur0301@gmail.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="ihsan.jpg" alt="İhsan İrevil" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">İhsan İrevil</h3>
+      <p style="color: #666;">Sayman<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/_irevillihsan_/" style="color: #0073e6;">@_irevillihsan_</a> | E-posta: <a href="mailto:irevil0663@gmail.com" style="color: #0073e6;">irevil0663@gmail.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="ayse_gul_cicek.jpg" alt="Ayşegül Çiçek" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Ayşegül Çiçek</h3>
+      <p style="color: #666;">Üye<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="https://www.instagram.com/aysegullcicek_/" style="color: #0073e6;">@aysegul.cicek</a> | E-posta: <a href="mailto:gulcicekayse2021@gmail.com" style="color: #0073e6;">gulcicekayse2021@gmail.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="LOGO (2).png" alt="Ayşenur Yurdagül" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Ayşenur Yurdagül</h3>
+      <p style="color: #666;">Üye<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="#" style="color: #0073e6;">@aysenur.yurdagul</a> | E-posta: <a href="mailto:aysenur.yurdagul@example.com" style="color: #0073e6;">aysenur.yurdagul@example.com</a></p>
+    </div>
+
+    <div style="width: 45%; text-align: center;">
+      <img src="LOGO (2).png" alt="Selena Filazi" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+      <h3 style="color: #4a4a4a;">Selena Filazi</h3>
+      <p style="color: #666;">Üye<br>Sağlık Bilimleri Fakültesi Hemşirelik Bölümü 3. Sınıf Öğrencisi</p>
+      <p style="color: #888;">Instagram: <a href="#" style="color: #0073e6;">@selena.filazi</a> | E-posta: <a href="mailto:selena.filazi@example.com" style="color: #0073e6;">selena.filazi@example.com</a></p>
+    </div>
+  </div>
+      
+  </div>
+
+  <footer>
+    <div class="container">
+        <p>
+            &copy; 2024 Kadın Sağlığı ve Üreme Sağlığı Kulübü. Tüm Hakları Saklıdır.
+            <a href="iletisim.html" style="margin-left: 10px; color: #4CAF50; text-decoration: none;" target="_blank">Bizimle iletişime geçin <p></p></a>
+                     (hazırlayan) instagram:
+            <a href="https://www.instagram.com/abdullah_duman00/">@abdullah_duman00</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
