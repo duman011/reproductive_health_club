@@ -108,6 +108,25 @@ body {
     transform: scale(1.05);
   }
   
+   /* Resim1 Bölümü */
+   .resim1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .resim1 img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .resim1 img:hover {
+    transform: scale(1.05);
+  }
+  
   /* Ne Yapıyor Bölümü */
   .ne_yapiyor {
     padding: 20px;
